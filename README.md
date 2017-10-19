@@ -18,10 +18,10 @@ The Ardupilot flight stack is modified to run on DuinOS?(FreeDOS)
 ### (Windows) Build ArduPilot for 86duino
 Only ArduCopter had been tested on 86duino One.
 
-1. Download the toolchain (url)
+1. Download the toolchain (https://github.com/roboard/86Ardupilot/releases/download/v1.0.0/toolchain.zip)
 2. Run Ardupilot.bat (for setup environment)
 3. Navigate to the ArduCopter source code folder (eg. C:\86ardupilot\ArduCopter\)
-4. run "make 86duino ¡Vj4"
+4. run : make 86duino ¡Vj4
 
 First time installation:
 Copy ArduCopter.exe (in ArduCopter folder) into the SD card, then rename it to _86duino.exe (replace the original one).
