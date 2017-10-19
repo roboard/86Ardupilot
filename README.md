@@ -1,6 +1,9 @@
-##  Ardupilot on 86Duino One
+##  Ardupilot on 86Duino
+This is a fork of the Ardupilot library for 86Duino boards.
+(original Ardupilot library: https://github.com/ArduPilot/ardupilot)
+
 This ported Ardupilot is version 3.6 dev. (2017.09.15)
-The Ardupilot flight stack is modified to run on DuinOS?(FreeDOS)
+The Ardupilot flight stack is modified to run on FreeDOS.
 
 ### Requirements
 1. a DuinOS SD card (http://www.86duino.com/index.php?p=11878)
