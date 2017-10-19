@@ -9,11 +9,11 @@ The Ardupilot flight stack is modified to run on DuinOS?(FreeDOS)
 4. GPS module (optional)
 
 ### Supported hardware
-GY-86 sensor module (I2C, MPU6050, MS5611, HMC5883L)
-GY-91 sensor module (SPI, MPU9250 [pin.9], BMP280 [pin.8])
-VL53L0X range finder (I2C)
-Ublox-M8N GPS module (UART)
-6-CH RC receiver(PWM)
+* GY-86 sensor module (I2C, MPU6050, MS5611, HMC5883L)
+* GY-91 sensor module (SPI, MPU9250 [pin.9], BMP280 [pin.8])
+* VL53L0X range finder (I2C)
+* Ublox-M8N GPS module (UART)
+* 6-CH RC receiver(PWM)
 
 ### (Windows) Build ArduPilot for 86duino
 Only ArduCopter had been tested on 86duino One.
@@ -27,10 +27,10 @@ First time installation:
 Copy ArduCopter.exe (in ArduCopter folder) into the SD card, then rename it to _86duino.exe (replace the original one).
 	
 Upload firmware by usb connection(for developer):
-2. Run Ardupilot.bat
-3. Navigate to the Tools folder (eg. C:\86ardupilot\Tools\)
-2. run "upx ..\..\ArduCopter\ArduCopter.exe"
-3. run "v86dude com'N' 20 ..\..\ArduCopter\ArduCopter.exe standalone" ('N' is the usb comport number)
+1. Run Ardupilot.bat
+2. Navigate to the Tools folder (eg. C:\86ardupilot\Tools\)
+3. run "upx ..\..\ArduCopter\ArduCopter.exe"
+4. run "v86dude com'N' 20 ..\..\ArduCopter\ArduCopter.exe standalone" ('N' is the usb comport number)
 
 ### Setup Ardupilot
 Same as other ardupilot flight controller, please refer the official tutorial
