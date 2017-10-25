@@ -1,4 +1,4 @@
-<iframe width="420" height="315" src="https://www.youtube.com/embed/LruKS4eodQ0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/LruKS4eodQ0/0.jpg)](https://www.youtube.com/watch?v=LruKS4eodQ0)
 
 ##  Ardupilot on 86Duino
 This is a fork of the Ardupilot library for 86Duino boards.
