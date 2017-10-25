@@ -1,5 +1,3 @@
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/LruKS4eodQ0/0.jpg)](https://www.youtube.com/watch?v=LruKS4eodQ0)
-
 ##  Ardupilot on 86Duino
 This is a fork of the Ardupilot library for 86Duino boards.
 (original Ardupilot library: https://github.com/ArduPilot/ardupilot)
@@ -43,3 +41,8 @@ http://ardupilot.org/copter/docs/configuring-hardware.html
 
 ### Known Issues
 1. Currently the system is running in single thread, thus the SD card R/W may cause the drone crash. Strongly recommend disable the Log function.(set LOG_BACKEND_TYPE to none)
+
+### Demo Video
+<div align=center>
+<a href="https://www.youtube.com/watch?v=LruKS4eodQ0"><img src="https://img.youtube.com/vi/LruKS4eodQ0/0.jpg" alt="86Ardupilot"></a>
+</div>
